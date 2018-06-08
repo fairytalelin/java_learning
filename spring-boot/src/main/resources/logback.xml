@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds">
+
+    <property resource="application.properties"/>
+
+    <!-- Handle JUL -->
+    <contextListener class="ch.qos.logback.classic.jul.LevelChangePropagator">
+        <resetJUL>true</resetJUL>
+    </contextListener>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%date [%thread] [%file:%line] [%level %logger{0}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logging.path}/springboot.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logs.dir}/springboot.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%date [%thread] [%file:%line] [%level %logger{0}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="ASYNC_FILE" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="FILE"/>
+        <queueSize>102400</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+        <!-- add the following line -->
+        <includeCallerData>true</includeCallerData>
+    </appender>
+
+
+    <appender name="REDIS_FAIL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logs.dir}/redis_fail.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${logs.dir}/redis_fail.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- 记录MQ日志 -->
+    <appender name="MQ_CONSUMER_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${logs.dir}/mq.consumer.log</file>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%date [%thread] [%file:%line] [%level %logger{0}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="ASYNC_MQ_CONSUMER_FILE" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="MQ_CONSUMER_FILE"/>
+        <queueSize>102400</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+    </appender>
+    <logger name="mq.consumer.log" additivity="false" level="DEBUG">
+        <appender-ref ref="ASYNC_MQ_CONSUMER_FILE"/>
+    </logger>
+    <appender name="MQ_PRODUCER_FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${logs.dir}/mq.producer.log</file>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%date [%thread] [%file:%line] [%level %logger{0}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="ASYNC_MQ_PRODUCER_FILE" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="MQ_PRODUCER_FILE"/>
+        <queueSize>102400</queueSize>
+        <discardingThreshold>0</discardingThreshold>
+    </appender>
+    <logger name="mq.producer.log" additivity="false" level="DEBUG">
+        <appender-ref ref="ASYNC_MQ_PRODUCER_FILE"/>
+    </logger>
+    <!-- 记录MQ日志 End -->
+
+    <logger name="org.apache" level="WARN"/>
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="com.yy.cs.base" level="WARN"/>
+    <logger name="org.mongodb.driver" level="WARN"/>
+    <logger name="com.duowan.sysop.hawk.metrics" level="WARN"/>
+    <logger name="org.mortbay" level="WARN"/>
+
+    <logger name="HttpURLConnection" level="ERROR"/>
+    <logger name="HeaderExchangeClient" level="ERROR"/>
+    <logger name="HdReportSDK" level="INFO"/>
+    <logger name="InternalLog" level="INFO"/>
+    <logger name="sun.net.www.protocol.http.HttpURLConnection" level="ERROR"/>
+
+
+    <logger name="redisFailLogger" additivity="false" level="DEBUG">
+        <appender-ref ref="REDIS_FAIL_FILE"/>
+    </logger>
+
+    <if condition='property("logs.level").equals("DEBUG")'>
+        <then>
+            <!-- Test Env -->
+            <root level="${logs.level}">
+                <appender-ref ref="STDOUT"/>
+                <appender-ref ref="ASYNC_FILE"/>
+            </root>
+        </then>
+        <else>
+            <root level="${logs.level}">
+                <appender-ref ref="ASYNC_FILE"/>
+            </root>
+        </else>
+    </if>
+</configuration>
+

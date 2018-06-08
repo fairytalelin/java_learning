@@ -1,0 +1,1 @@
+2018-03-17 20:23:21,041 [Thread-9] [AbstractApplicationContext.java:989] [INFO AnnotationConfigServletWebServerApplicationContext] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@188715b5: startup date [Sat Mar 10 17:33:07 CST 2018]; root of context hierarchy

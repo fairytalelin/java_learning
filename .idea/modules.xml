@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cache/cache.iml" filepath="$PROJECT_DIR$/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrencyInPractice/chapter14BuildingCustomSynchronizer/chapter14BuildingCustomSynchronizer.iml" filepath="$PROJECT_DIR$/concurrencyInPractice/chapter14BuildingCustomSynchronizer/chapter14BuildingCustomSynchronizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrencyInPractice/chapter2ThreadSafety/chapter2ThreadSafety.iml" filepath="$PROJECT_DIR$/concurrencyInPractice/chapter2ThreadSafety/chapter2ThreadSafety.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrencyInPractice/chapter5BuildingBlocks/chapter5BuildingBlocks.iml" filepath="$PROJECT_DIR$/concurrencyInPractice/chapter5BuildingBlocks/chapter5BuildingBlocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrencyInPractice/concurrencyInPractice.iml" filepath="$PROJECT_DIR$/concurrencyInPractice/concurrencyInPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/disruptor/disruptor.iml" filepath="$PROJECT_DIR$/disruptor/disruptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaBase/javaBase.iml" filepath="$PROJECT_DIR$/javaBase/javaBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaResource/javaResource.iml" filepath="$PROJECT_DIR$/javaResource/javaResource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_project.iml" filepath="$PROJECT_DIR$/java_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka/kafka.iml" filepath="$PROJECT_DIR$/kafka/kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logger/logger.iml" filepath="$PROJECT_DIR$/logger/logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty/netty.iml" filepath="$PROJECT_DIR$/netty/netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/rpc.iml" filepath="$PROJECT_DIR$/rpc/rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/rpc-common/rpc-common.iml" filepath="$PROJECT_DIR$/rpc/rpc-common/rpc-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/rpc-registry/rpc-registry.iml" filepath="$PROJECT_DIR$/rpc/rpc-registry/rpc-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/rpc-registry-zookeeper/rpc-registry-zookeeper.iml" filepath="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/rpc-registry-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc/rpc-server/rpc-server.iml" filepath="$PROJECT_DIR$/rpc/rpc-server/rpc-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thrift/thrift.iml" filepath="$PROJECT_DIR$/thrift/thrift.iml" />
+    </modules>
+  </component>
+</project>

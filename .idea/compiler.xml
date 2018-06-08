@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="algorithm" />
+        <module name="cache" />
+        <module name="chapter14BuildingCustomSynchronizer" />
+        <module name="chapter2ThreadSafety" />
+        <module name="chapter5BuildingBlocks" />
+        <module name="collection" />
+        <module name="common" />
+        <module name="core" />
+        <module name="demo" />
+        <module name="disruptor" />
+        <module name="javaBase" />
+        <module name="javaResource" />
+        <module name="kafka" />
+        <module name="logger" />
+        <module name="netty" />
+        <module name="rpc-common" />
+        <module name="rpc-registry" />
+        <module name="rpc-registry-zookeeper" />
+        <module name="rpc-server" />
+        <module name="spring" />
+        <module name="spring-boot" />
+        <module name="thrift" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="algorithm" target="1.8" />
+      <module name="cache" target="1.8" />
+      <module name="chapter14BuildingCustomSynchronizer" target="1.8" />
+      <module name="chapter2ThreadSafety" target="1.8" />
+      <module name="chapter5BuildingBlocks" target="1.8" />
+      <module name="collection" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="concurrencyInPractice" target="1.5" />
+      <module name="core" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="disruptor" target="1.8" />
+      <module name="java_project" target="1.5" />
+      <module name="javaBase" target="1.8" />
+      <module name="javaResource" target="1.8" />
+      <module name="kafka" target="1.8" />
+      <module name="logger" target="1.8" />
+      <module name="netty" target="1.8" />
+      <module name="rpc" target="1.5" />
+      <module name="rpc-common" target="1.8" />
+      <module name="rpc-registry" target="1.8" />
+      <module name="rpc-registry-zookeeper" target="1.8" />
+      <module name="rpc-server" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="spring-boot" target="1.5" />
+      <module name="thrift" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
