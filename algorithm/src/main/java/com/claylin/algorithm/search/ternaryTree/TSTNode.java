@@ -1,71 +1,84 @@
 package com.claylin.algorithm.search.ternaryTree;
 
-import java.util.List;
+import com.claylin.algorithm.collections.IndexedTreeSet;
 
-public class TSTNode {
-    private char data;
-    private int isEndOfString;
-    private TSTNode left;
-    private TSTNode eq;
-    private TSTNode right;
-    private List<String> list;
+public class TSTNode<T> {
+    private char value;
+    private TSTNode<T> left;
+    private TSTNode<T> eq;
+    private TSTNode<T> right;
 
+    private boolean isEndOfString;
 
-    public TSTNode(char data) {
-        this.data = data;
+    private IndexedTreeSet<T> prefixSet;
+
+    public TSTNode(char value) {
+        this.value = value;
     }
 
-    public char getData() {
-        return data;
+    public char getValue() {
+        return value;
     }
 
-    public TSTNode setData(char data) {
-        this.data = data;
+    public TSTNode<T> setValue(char value) {
+        this.value = value;
         return this;
     }
 
-    public int getIsEndOfString() {
-        return isEndOfString;
-    }
-
-    public TSTNode setIsEndOfString(int isEndOfString) {
-        this.isEndOfString = isEndOfString;
-        return this;
-    }
-
-    public TSTNode getLeft() {
+    public TSTNode<T> getLeft() {
         return left;
     }
 
-    public TSTNode setLeft(TSTNode left) {
+    public TSTNode<T> setLeft(TSTNode<T> left) {
         this.left = left;
         return this;
     }
 
-    public TSTNode getEq() {
+    public TSTNode<T> getEq() {
         return eq;
     }
 
-    public TSTNode setEq(TSTNode eq) {
+    public TSTNode<T> setEq(TSTNode<T> eq) {
         this.eq = eq;
         return this;
     }
 
-    public TSTNode getRight() {
+    public TSTNode<T> getRight() {
         return right;
     }
 
-    public TSTNode setRight(TSTNode right) {
+    public TSTNode<T> setRight(TSTNode<T> right) {
         this.right = right;
         return this;
     }
 
-    public List<String> getList() {
-        return list;
+    public boolean isEndOfString() {
+        return isEndOfString;
     }
 
-    public TSTNode setList(List<String> list) {
-        this.list = list;
+    public TSTNode<T> setEndOfString(boolean endOfString) {
+        isEndOfString = endOfString;
         return this;
+    }
+
+    public IndexedTreeSet<T> getPrefixSet() {
+        return prefixSet;
+    }
+
+    public TSTNode<T> setPrefixSet(IndexedTreeSet<T> prefixSet) {
+        this.prefixSet = prefixSet;
+        return this;
+    }
+
+    @Override
+    public String toString() {
+        return "TSTNode{" +
+                "value=" + value +
+                ", left=" + left +
+                ", eq=" + eq +
+                ", right=" + right +
+                ", isEndOfString=" + isEndOfString +
+                ", prefixSet=" + prefixSet +
+                '}';
     }
 }
