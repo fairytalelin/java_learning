@@ -121,7 +121,7 @@ public class IndexedTreeSet<E> extends AbstractSet<E>
      * Constructs a new, empty tree set, sorted according to the specified
      * comparator.  All elements inserted into the set must be <i>mutually
      * comparable</i> by the specified comparator: {@code comparator.compare(e1,
-     *e2)} must not throw a {@code ClassCastException} for any elements
+     * e2)} must not throw a {@code ClassCastException} for any elements
      * {@code e1} and {@code e2} in the set.  If the user attempts to add
      * an element to the set that violates this constraint, the
      * {@code add} call will throw a {@code ClassCastException}.
@@ -237,7 +237,7 @@ public class IndexedTreeSet<E> extends AbstractSet<E>
      *
      * @param e element to be added to this set
      * @return {@code true} if this set did not already contain the specified
-     *         element
+     * element
      * @throws ClassCastException   if the specified object cannot be compared
      *                              with the elements currently in this set
      * @throws NullPointerException if the specified element is null

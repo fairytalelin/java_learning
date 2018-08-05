@@ -12,7 +12,7 @@ public interface IndexedNavigableMap<K, V> extends NavigableMap<K, V> {
      *
      * @param index index of the key
      * @return the key {@code key} located at the index (@code index) offset
-     *         from the beginning of the sorted map
+     * from the beginning of the sorted map
      * @throws ArrayIndexOutOfBoundsException if the specified index is less than 0 or greater than size-1
      */
     K exactKey(int index);
@@ -23,7 +23,7 @@ public interface IndexedNavigableMap<K, V> extends NavigableMap<K, V> {
      *
      * @param index index of the key
      * @return the entry with the key {@code key} located at the index (@code index) offset
-     *         from the beginning of the sorted map
+     * from the beginning of the sorted map
      * @throws ArrayIndexOutOfBoundsException if the specified index is less than 0 or greater than size-1
      */
     Entry<K, V> exactEntry(int index);
@@ -34,7 +34,7 @@ public interface IndexedNavigableMap<K, V> extends NavigableMap<K, V> {
      *
      * @param k the key
      * @return index of the search key, if it is contained in the tree map;
-     *	       otherwise a NullPointerException is thrown
+     * otherwise a NullPointerException is thrown
      * @throws NullPointerException if the specified key is null or does not exist
      */
     int keyIndex(K k);

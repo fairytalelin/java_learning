@@ -205,7 +205,7 @@ public class IndexedTreeMap<K, V>
      *
      * @param key key whose presence in this map is to be tested
      * @return <tt>true</tt> if this map contains a mapping for the
-     *         specified key
+     * specified key
      * @throws ClassCastException   if the specified key cannot be compared
      *                              with the keys currently in the map
      * @throws NullPointerException if the specified key is null
@@ -226,7 +226,7 @@ public class IndexedTreeMap<K, V>
      *
      * @param value value whose presence in this map is to be tested
      * @return <tt>true</tt> if a mapping to <tt>value</tt> exists;
-     *         <tt>false</tt> otherwise
+     * <tt>false</tt> otherwise
      * @since 1.2
      */
     public boolean containsValue(Object value) {
@@ -268,16 +268,14 @@ public class IndexedTreeMap<K, V>
     }
 
     /**
-     * @throws NoSuchElementException
-     *          {@inheritDoc}
+     * @throws NoSuchElementException {@inheritDoc}
      */
     public K firstKey() {
         return key(getFirstEntry());
     }
 
     /**
-     * @throws NoSuchElementException
-     *          {@inheritDoc}
+     * @throws NoSuchElementException {@inheritDoc}
      */
     public K lastKey() {
         return key(getLastEntry());
@@ -318,7 +316,7 @@ public class IndexedTreeMap<K, V>
      * does not contain an entry for the key.
      *
      * @return this map's entry for the given key, or <tt>null</tt> if the map
-     *         does not contain an entry for the key
+     * does not contain an entry for the key
      * @throws ClassCastException   if the specified key cannot be compared
      *                              with the keys currently in the map
      * @throws NullPointerException if the specified key is null
@@ -530,9 +528,9 @@ public class IndexedTreeMap<K, V>
      * @param key   key with which the specified value is to be associated
      * @param value value to be associated with the specified key
      * @return the previous value associated with <tt>key</tt>, or
-     *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
-     *         previously associated <tt>null</tt> with <tt>key</tt>.)
+     * <tt>null</tt> if there was no mapping for <tt>key</tt>.
+     * (A <tt>null</tt> return can also indicate that the map
+     * previously associated <tt>null</tt> with <tt>key</tt>.)
      * @throws ClassCastException   if the specified key cannot be compared
      *                              with the keys currently in the map
      * @throws NullPointerException if the specified key is null
@@ -602,9 +600,9 @@ public class IndexedTreeMap<K, V>
      *
      * @param key key for which mapping should be removed
      * @return the previous value associated with <tt>key</tt>, or
-     *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
-     *         previously associated <tt>null</tt> with <tt>key</tt>.)
+     * <tt>null</tt> if there was no mapping for <tt>key</tt>.
+     * (A <tt>null</tt> return can also indicate that the map
+     * previously associated <tt>null</tt> with <tt>key</tt>.)
      * @throws ClassCastException   if the specified key cannot be compared
      *                              with the keys currently in the map
      * @throws NullPointerException if the specified key is null
@@ -2166,7 +2164,7 @@ public class IndexedTreeMap<K, V>
          * value.
          *
          * @return the value associated with the key before this method was
-         *         called
+         * called
          */
         public V setValue(V value) {
             V oldValue = this.value;
@@ -2596,15 +2594,19 @@ public class IndexedTreeMap<K, V>
     void readTreeSet(int size, java.io.ObjectInputStream s, V defaultVal)
             throws java.io.IOException, ClassNotFoundException {
         buildFromSorted(size, null, s, defaultVal);
-        if (root!=null){
+        if (root != null) {
             updateWeight(root);
         }
     }
 
-    private int updateWeight(Entry<K,V>e){
+    private int updateWeight(Entry<K, V> e) {
         int weight = 1;
-        if (e.left!=null){weight += updateWeight(e.left);}
-        if (e.right!=null){weight += updateWeight(e.right);}
+        if (e.left != null) {
+            weight += updateWeight(e.left);
+        }
+        if (e.right != null) {
+            weight += updateWeight(e.right);
+        }
         e.weight = weight;
         return weight;
     }
