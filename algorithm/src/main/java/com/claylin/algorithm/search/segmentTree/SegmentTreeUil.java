@@ -1,5 +1,8 @@
 package com.claylin.algorithm.search.segmentTree;
 
+/**
+ * https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/
+ */
 public class SegmentTreeUil {
 
     int st[]; // the array that stores segment tree nodes
