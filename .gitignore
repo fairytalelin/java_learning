@@ -36,3 +36,7 @@ rest-client.private.env.json
 http-client.private.env.json
 
 .idea
+/unsafe/target/
+/grpc-example/target/
+logger.log
+.iml

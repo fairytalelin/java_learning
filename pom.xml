@@ -24,6 +24,12 @@
         <module>javaBase</module>
         <module>collection</module>
         <module>cache</module>
+        <module>benchmarks</module>
+        <module>grpc-example</module>
+        <module>unsafe</module>
+        <module>io-model</module>
+        <module>flink</module>
+        <module>jvm-learning</module>
     </modules>
 
     <properties>

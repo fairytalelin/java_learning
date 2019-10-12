@@ -6,32 +6,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="algorithm" />
-        <module name="cache" />
         <module name="chapter14BuildingCustomSynchronizer" />
-        <module name="chapter2ThreadSafety" />
-        <module name="chapter5BuildingBlocks" />
-        <module name="collection" />
-        <module name="common" />
-        <module name="core" />
-        <module name="demo" />
-        <module name="disruptor" />
-        <module name="javaBase" />
-        <module name="javaResource" />
-        <module name="kafka" />
-        <module name="logger" />
-        <module name="netty" />
-        <module name="rpc-common" />
-        <module name="rpc-registry" />
         <module name="rpc-registry-zookeeper" />
-        <module name="rpc-server" />
-        <module name="spring" />
-        <module name="spring-boot" />
+        <module name="common" />
+        <module name="algorithm" />
+        <module name="demo" />
+        <module name="jvm-learning" />
+        <module name="javaBase" />
+        <module name="netty" />
         <module name="thrift" />
+        <module name="disruptor" />
+        <module name="cache" />
+        <module name="benchmarks" />
+        <module name="logger" />
+        <module name="chapter5BuildingBlocks" />
+        <module name="chapter2ThreadSafety" />
+        <module name="io-model" />
+        <module name="rpc-registry" />
+        <module name="spring" />
+        <module name="unsafe" />
+        <module name="flink" />
+        <module name="core" />
+        <module name="collection" />
+        <module name="rpc-server" />
+        <module name="spring-boot" />
+        <module name="kafka" />
+        <module name="grpc-example" />
+        <module name="javaResource" />
+        <module name="rpc-common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="algorithm" target="1.8" />
+      <module name="benchmarks" target="1.8" />
       <module name="cache" target="1.8" />
       <module name="chapter14BuildingCustomSynchronizer" target="1.8" />
       <module name="chapter2ThreadSafety" target="1.8" />
@@ -42,9 +49,13 @@
       <module name="core" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="disruptor" target="1.8" />
+      <module name="flink" target="1.8" />
+      <module name="grpc-example" target="1.8" />
+      <module name="io-model" target="1.8" />
       <module name="java_project" target="1.5" />
       <module name="javaBase" target="1.8" />
       <module name="javaResource" target="1.8" />
+      <module name="jvm-learning" target="1.8" />
       <module name="kafka" target="1.8" />
       <module name="logger" target="1.8" />
       <module name="netty" target="1.8" />
@@ -56,6 +67,12 @@
       <module name="spring" target="1.8" />
       <module name="spring-boot" target="1.5" />
       <module name="thrift" target="1.8" />
+      <module name="unsafe" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+    </option>
   </component>
 </project>

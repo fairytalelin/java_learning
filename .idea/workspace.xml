@@ -1,40 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="0b1cb535-d1ba-4eba-8466-1c7fccaca6ef" name="Default" comment="">
+    <list default="true" id="0b1cb535-d1ba-4eba-8466-1c7fccaca6ef" name="Default" comment="添加index hashset 添加三叉搜索树">
+      <change afterPath="$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/search/segmentTree/STNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/benchmarks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/src/main/java/com/claylin/benchmarks/QpsWorkBeanch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/target/classes/com/claylin/benchmarks/QpsWorkBeanch$Job.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks/target/classes/com/claylin/benchmarks/QpsWorkBeanch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/LTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/flink.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/claylin/flink/stream/CallbackItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/claylin/flink/stream/CallbackStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/claylin/flink/stream/IterationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/claylin/flink/stream/PushIdCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/claylin/flink/stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/claylin/flink/stream/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/main/java/com/claylin/flink/stream/WindowWordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/CallbackItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/CallbackStatistics.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/IterationExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/IterationExample$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/IterationExample$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/IterationExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/PushIdCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/Test$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/Test$Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/Test$St.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/Test1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/Test1$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/WindowWordCount$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/WindowWordCount$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/WindowWordCount$Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/WindowWordCount$Splitter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/classes/com/claylin/flink/stream/WindowWordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flink/target/test-classes/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/grpc-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/UserServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/entity/GetByUidReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/entity/GetByUidReqOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/entity/RetMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/entity/RetMsgOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/entity/UserEntityProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/entity/UserOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/service/UserProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/service/UserviceGrpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/java/com/claylin/grpc/proto/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/proto/entity.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/main/proto/user.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/src/test/java/AsynClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/App$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/UserServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/UserServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/GetByUidReq$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/GetByUidReq$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/GetByUidReq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/GetByUidReqOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/RetMsg$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/RetMsg$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/RetMsg.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/RetMsgOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/User$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/User$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/UserEntityProto$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/UserEntityProto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/entity/UserOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserProto$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserProto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$MethodHandlers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$UserviceBaseDescriptorSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$UserviceBlockingStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$UserviceFileDescriptorSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$UserviceFutureStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$UserviceImplBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$UserviceMethodDescriptorSupplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc$UserviceStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/UserviceGrpc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/classes/com/claylin/grpc/proto/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/any.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/descriptor.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/duration.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/empty.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/field_mask.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/source_context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/struct.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/timestamp.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/type.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/0d4c2671d9ba1cdcdbe15869d29c1105/google/protobuf/wrappers.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/de9c31fb75e535e4cb3ced16a485ab44/grpc/binlog/v1/binarylog.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/de9c31fb75e535e4cb3ced16a485ab44/grpc/binlog/v1alpha/binarylog.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/de9c31fb75e535e4cb3ced16a485ab44/grpc/channelz/v1/channelz.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/de9c31fb75e535e4cb3ced16a485ab44/grpc/health/v1/health.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-dependencies/de9c31fb75e535e4cb3ced16a485ab44/io/grpc/reflection/v1alpha/reflection.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-plugins/protoc-3.5.1-1-osx-x86_64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/protoc-plugins/protoc-gen-grpc-java-1.16.1-osx-x86_64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/test-classes/AsynClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/test-classes/AsynClient$HistogramFuture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc-example/target/test-classes/AsynClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/io-model.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/common/Configurable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/common/security/auth/PrincipalBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/common/security/auth/SelfPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/model/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/Authenticator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/ByteBufferSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/NetworkReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/NetworkSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/PlaintextTransportLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/Receive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/SelfChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/src/main/java/com/claylin/io/network/TransportLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/common/Configurable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/common/security/auth/PrincipalBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/common/security/auth/SelfPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/model/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/Authenticator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/ByteBufferSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/NetworkReceive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/NetworkSend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/PlaintextTransportLayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/Receive.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/SelfChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/Send.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-model/target/classes/com/claylin/io/network/TransportLayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/string/StringIntern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm-learning/jvm-learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm-learning/src/main/java/com/claylin/jvm/learning/chapter8/Example8_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm-learning/target/classes/com/claylin/jvm/learning/chapter8/Example8_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsafe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsafe/src/main/java/com/claylin/unsafe/TestUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsafe/src/main/java/com/claylin/unsafe/UnsafeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsafe/target/classes/com/claylin/unsafe/TestUnsafe$Entity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsafe/target/classes/com/claylin/unsafe/TestUnsafe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsafe/target/classes/com/claylin/unsafe/UnsafeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unsafe/unsafe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaResource/javaResource.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaResource/javaResource.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/rpc/target/" />
-    <ignored path="$PROJECT_DIR$/rpc/rpc-server/target/" />
-    <ignored path="$PROJECT_DIR$/rpc/rpc-common/target/" />
-    <ignored path="$PROJECT_DIR$/concurrencyInPractice/target/" />
-    <ignored path="$PROJECT_DIR$/concurrencyInPractice/chapter2ThreadSafety/target/" />
-    <ignored path="$PROJECT_DIR$/spring/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <ignored path="$PROJECT_DIR$/concurrencyInPractice/chapter5BuildingBlocks/target/" />
-    <ignored path="$PROJECT_DIR$/disruptor/target/" />
-    <ignored path="$PROJECT_DIR$/concurrencyInPractice/chapter14BuildingCustomSynchronizer/target/" />
-    <ignored path="$PROJECT_DIR$/thrift/target/" />
-    <ignored path="$PROJECT_DIR$/netty/target/" />
-    <ignored path="$PROJECT_DIR$/logger/target/" />
-    <ignored path="$PROJECT_DIR$/algorithm/target/" />
-    <ignored path="$PROJECT_DIR$/core/target/" />
-    <ignored path="$PROJECT_DIR$/javaResource/target/" />
-    <ignored path="$PROJECT_DIR$/spring-boot/target/" />
-    <ignored path="$PROJECT_DIR$/kafka/target/" />
-    <ignored path="$PROJECT_DIR$/javaBase/target/" />
-    <ignored path="$PROJECT_DIR$/rpc/rpc-registry/target/" />
-    <ignored path="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/target/" />
-    <ignored path="$PROJECT_DIR$/demo/target/" />
-    <ignored path="$PROJECT_DIR$/collection/target/" />
-    <ignored path="$PROJECT_DIR$/cache/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
@@ -53,90 +184,11 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="1580" column="27" selection-start-line="1580" selection-start-column="27" selection-end-line="1580" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java_project.iml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logging.path_IS_UNDEFINED/springboot.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2925">
-              <caret line="232" selection-start-line="232" selection-end-line="232" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/CombinedChannelDuplexHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5970">
-              <caret line="436" column="37" selection-start-line="436" selection-start-column="37" selection-end-line="436" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17505">
-              <caret line="1265" selection-start-line="1265" selection-end-line="1265" />
-              <folding>
-                <element signature="e#42984#42985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8205">
-              <caret line="598" selection-start-line="598" selection-end-line="598" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="java_project" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,620 +203,79 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ConcurrentModificationException</find>
-      <find>Concu</find>
-      <find>15cf939d</find>
-      <find>6667ff3b</find>
-      <find>netty</find>
-      <find>LoggerContextListener</find>
-      <find>HttpStaticFileServerHandler</find>
-      <find>&lt;T&gt;</find>
-      <find>totalTimeMillis</find>
-      <find>currentTaskName</find>
-      <find>threadLocalRandomSeed</find>
-      <find>MultithreadEventExecutorGroup</find>
-      <find>asRunnable</find>
-      <find>processSelectedKey</find>
-      <find>hash</find>
-      <find>Compar</find>
-      <find>Double</find>
-      <find>Integer</find>
-      <find>merge</find>
-      <find>sun.misc.ProxyGenerator.saveGeneratedFiles</find>
-      <find>InterruptedThread</find>
-      <find>elk</find>
-      <find>ASYNC_RANK_REPORT_FILE</find>
-      <find>REDIS_FAIL_FILE</find>
-      <find>projectGlobal.properties</find>
-      <find>STDOUT</find>
-      <find>cache</find>
-      <find>byteBuf</find>
-      <find>protected</find>
-      <find>w</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>in</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/configuration/WebConfiguration.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/test/java/com/claylin/springboot/ApplicationTest.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/controller/CustomerController.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/resources/test.lua" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/configuration/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/kafka/pom.xml" />
-        <option value="$PROJECT_DIR$/kafka/src/main/java/com/claylin/kafka/config/AppConfiguration.java" />
-        <option value="$PROJECT_DIR$/kafka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/kafka/src/test/java/com/claylin/kafka/KafkaApplicationTests.java" />
-        <option value="$PROJECT_DIR$/kafka/src/main/java/com/claylin/kafka/mq/BasicKafkaProducer.java" />
-        <option value="$PROJECT_DIR$/javaBase/src/main/java/com/claylin/javaBase/IntegerLearn.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/claylin/rpc/util/SerializationUtil.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/claylin/rpc/codec/RpcDecoder.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-common/src/main/java/com/claylin/rpc/codec/RpcEncoder.java" />
-        <option value="$PROJECT_DIR$/rpc/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/claylin/rpc/server/RpcServerHandler.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-registry/src/main/java/com/claylin/rpc/registry/ServiceRegistry.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-registry/src/main/java/com/claylin/rpc/registry/ServiceDiscovery.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/src/main/java/Constant.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/src/main/java/com/claylin/rpc/registry/zookeeper/Constant.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/src/main/java/com/claylin/rpc/registry/zookeeper/ZooKeeperServiceDiscovery.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/src/main/java/com/claylin/rpc/registry/zookeeper/ZooKeeperServiceRegistry.java" />
-        <option value="$PROJECT_DIR$/rpc/rpc-server/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc/rpc-server/src/main/java/com/claylin/rpc/server/RpcServer.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/sorting/MergeSort.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/graph/Graph.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/test/java/SynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/ListTest.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/AbstractFlay.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/BirdFly.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/AbstractBirdFly.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/TestMain.java" />
-        <option value="$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/WormFly.java" />
-        <option value="$PROJECT_DIR$/cache/src/main/java/com/claylin/cache/Entry.java" />
-        <option value="$PROJECT_DIR$/cache/src/main/java/com/claylin/cache/Cache.java" />
-        <option value="$PROJECT_DIR$/cache/src/main/java/com/claylin/cache/PrepetualCache.java" />
-        <option value="$PROJECT_DIR$/cache/src/main/java/com/claylin/cache/impl/PrepetualCache.java" />
-        <option value="$PROJECT_DIR$/cache/src/main/java/com/claylin/cache/decorators/LruCache.java" />
-        <option value="$PROJECT_DIR$/cache/src/main/java/com/claylin/cache/decorators/FifoCache.java" />
-        <option value="$PROJECT_DIR$/cache/src/main/java/com/claylin/cache/decorators/BlockingCache.java" />
-        <option value="$PROJECT_DIR$/cache/pom.xml" />
-        <option value="$PROJECT_DIR$/cache/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/com/claylin/core/utils/TimeWheel.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/helloworld/HttpHelloServer.java" />
-        <option value="$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/helloworld/HttpHelloWorldServerInitializer.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/exercise/TransfromNum.java" />
-        <option value="$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/exercise/CountNum.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-    <option name="disabledProfiles">
-      <list>
-        <option value="jrepo2-public" />
-      </list>
-    </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="y" value="-199" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
+  <component name="ProjectId" id="1Pjz6pNMOXVnNWovHlap6o7fs3V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_project" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_project" type="462c0819:PsiDirectoryNode" />
-              <item name="disruptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_project" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_project" type="462c0819:PsiDirectoryNode" />
-              <item name="logging.path_IS_UNDEFINED" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="jndi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="jndi" type="462c0819:PsiDirectoryNode" />
-              <item name="ldap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="jndi" type="462c0819:PsiDirectoryNode" />
-              <item name="ldap" type="462c0819:PsiDirectoryNode" />
-              <item name="pool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="locks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="instrument" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="misc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-              <item name="codec" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-              <item name="codec" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-all:4.1.16.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-all-4.1.16.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.15.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.15.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.15.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.15.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.15.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.15.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.15.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.22.Final" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.22.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.22.Final.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.22.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.22.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: io.netty:netty-transport:4.1.22.Final" type="70bed36:NamedLibraryElementNode" />
-              <item name="netty-transport-4.1.22.Final.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.kafka:kafka-clients:1.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="kafka-clients-1.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="errors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mongodb:mongodb-driver-core:3.6.3" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mongodb:mongodb-driver-core:3.6.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mongodb-driver-core-3.6.3.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mongodb:mongodb-driver-core:3.6.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mongodb-driver-core-3.6.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mongodb:mongodb-driver-core:3.6.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mongodb-driver-core-3.6.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mongodb:mongodb-driver-core:3.6.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mongodb-driver-core-3.6.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.mongodb:mongodb-driver-core:3.6.3" type="70bed36:NamedLibraryElementNode" />
-              <item name="mongodb-driver-core-3.6.3.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="KafkaCon&#9;PSI&#9;JAVA://org.apache.kafka.clients.consumer.KafkaConsumer&#10;ServerBootstrapAcceptor&#9;PSI&#9;JAVA://io.netty.bootstrap.ServerBootstrap.ServerBootstrapAcceptor&#10;ServerBoo&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java&#10;NioEventLoop&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java&#10;AbstractNioMessageChannel&#9;PSI&#9;JAVA://io.netty.channel.nio.AbstractNioMessageChannel&#10;PoolCleaner&#9;PSI&#9;JAVA://com.sun.jndi.ldap.pool.PoolCleaner&#10;ConnectionPool&#9;PSI&#9;JAVA://com.mongodb.connection.ConnectionPool&#10;Linkedhash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;ThreadPool&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class&#10;AbstractQueuedSy&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;ImmutableMap&#9;PSI&#9;JAVA://com.google.common.collect.ImmutableMap&#10;Contended&#9;PSI&#9;JAVA://sun.misc.Contended&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;LinkedHa&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;ConcurrentHashm&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;AbstractQueueSyn&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;Decorator&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionDecorator&#10;Wrapper&#9;FILE&#9;jar:///Users/claylin/.m2/repository/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE-sources.jar!/org/springframework/beans/BeanWrapper.java&#10;ProxyFactoryB&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;ProxyFactory&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactory&#10;Jdbct&#9;PSI&#9;JAVA://org.springframework.jdbc.core.JdbcTemplate&#10;BeanWrapper&#9;PSI&#9;JAVA://org.springframework.beans.BeanWrapper&#10;MethodInte&#9;PSI&#9;JAVA://org.aopalliance.intercept.MethodInterceptor&#10;AfterRet&#9;PSI&#9;JAVA://org.springframework.aop.AfterReturningAdvice&#10;MethodBefore&#9;PSI&#9;JAVA://org.springframework.aop.framework.adapter.MethodBeforeAdviceAdapter&#10;MethodBef&#9;PSI&#9;JAVA://org.springframework.aop.MethodBeforeAdvice&#10;Advisor&#9;PSI&#9;JAVA://org.springframework.aop.Advisor&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;ClassPathxml&#9;PSI&#9;JAVA://org.springframework.context.support.ClassPathXmlApplicationContext&#10;TransactionSyn&#9;PSI&#9;JAVA://org.springframework.transaction.support.TransactionSynchronizationManager&#10;PlatformManager&#9;PSI&#9;JAVA://org.springframework.transaction.PlatformTransactionManager&#10;ApplicationC&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;Event&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java&#10;Array&#9;FILE&#9;uml://JAVA/java.util.ArrayList&#10;BeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;EventE&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java&#10;ThreadLocal&#9;PSI&#9;JAVA://com.claylin.javaResource.threadLocal.ThreadLocalExample.MyRunnable#threadLocal&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java&#10;Thread&#9;ACTION&#9;Debugger.CustomizeThreadsView&#10;JavaThread&#9;PSI&#9;JAVA://sun.jvm.hotspot.runtime.JavaThread&#10;EventExecutorG&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java&#10;Unpo&#9;PSI&#9;JAVA://io.netty.buffer.Unpooled&#10;ByteBUff&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;PooledBytebuf&#9;PSI&#9;JAVA://io.netty.buffer.PooledByteBuf&#10;Pooled&#9;PSI&#9;JAVA://io.netty.buffer.PooledByteBuf&#10;Pool&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-buffer/4.1.22.Final/netty-buffer-4.1.22.Final.jar!/io/netty/buffer/PooledByteBuf.class&#10;ByteBUf&#9;PSI&#9;JAVA://io.netty.buffer.ByteBuf&#10;SimpleChannelIN&#9;PSI&#9;JAVA://io.netty.channel.SimpleChannelInboundHandler&#10;ChannelDuplex&#9;PSI&#9;JAVA://io.netty.channel.ChannelDuplexHandler&#10;Channel&#9;PSI&#9;JAVA://io.netty.channel.Channel" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Abstra&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;AbstractQueue&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;ThreadPoo&#9;PSI&#9;JAVA://java.util.concurrent.ThreadPoolExecutor&#10;Concurrenthashmap&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;ConcurrentHas&#9;PSI&#9;JAVA://org.jboss.netty.util.internal.ConcurrentHashMap&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;TreeSet&#9;PSI&#9;JAVA://java.util.TreeSet&#10;AtomicInteger&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;KafkaCon&#9;PSI&#9;JAVA://org.apache.kafka.clients.consumer.KafkaConsumer&#10;ServerBootstrapAcceptor&#9;PSI&#9;JAVA://io.netty.bootstrap.ServerBootstrap.ServerBootstrapAcceptor&#10;ServerBoo&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java&#10;NioEventLoop&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java&#10;AbstractNioMessageChannel&#9;PSI&#9;JAVA://io.netty.channel.nio.AbstractNioMessageChannel&#10;PoolCleaner&#9;PSI&#9;JAVA://com.sun.jndi.ldap.pool.PoolCleaner&#10;ConnectionPool&#9;PSI&#9;JAVA://com.mongodb.connection.ConnectionPool&#10;Linkedhash&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java&#10;ThreadPool&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class&#10;AbstractQueuedSy&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java&#10;ImmutableMap&#9;PSI&#9;JAVA://com.google.common.collect.ImmutableMap&#10;Contended&#9;PSI&#9;JAVA://sun.misc.Contended&#10;LinkedList&#9;PSI&#9;JAVA://java.util.LinkedList&#10;LinkedHa&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;ConcurrentHashm&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;AbstractQueueSyn&#9;PSI&#9;JAVA://java.util.concurrent.locks.AbstractQueuedSynchronizer&#10;Decorator&#9;PSI&#9;JAVA://org.springframework.beans.factory.xml.BeanDefinitionDecorator&#10;Wrapper&#9;FILE&#9;jar:///Users/claylin/.m2/repository/org/springframework/spring-beans/5.0.0.RELEASE/spring-beans-5.0.0.RELEASE-sources.jar!/org/springframework/beans/BeanWrapper.java&#10;ProxyFactoryB&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactoryBean&#10;ProxyFactory&#9;PSI&#9;JAVA://org.springframework.aop.framework.ProxyFactory&#10;Jdbct&#9;PSI&#9;JAVA://org.springframework.jdbc.core.JdbcTemplate&#10;BeanWrapper&#9;PSI&#9;JAVA://org.springframework.beans.BeanWrapper&#10;MethodInte&#9;PSI&#9;JAVA://org.aopalliance.intercept.MethodInterceptor&#10;AfterRet&#9;PSI&#9;JAVA://org.springframework.aop.AfterReturningAdvice&#10;MethodBefore&#9;PSI&#9;JAVA://org.springframework.aop.framework.adapter.MethodBeforeAdviceAdapter&#10;MethodBef&#9;PSI&#9;JAVA://org.springframework.aop.MethodBeforeAdvice&#10;Advisor&#9;PSI&#9;JAVA://org.springframework.aop.Advisor&#10;ClassPathxml&#9;PSI&#9;JAVA://org.springframework.context.support.ClassPathXmlApplicationContext&#10;TransactionSyn&#9;PSI&#9;JAVA://org.springframework.transaction.support.TransactionSynchronizationManager&#10;PlatformManager&#9;PSI&#9;JAVA://org.springframework.transaction.PlatformTransactionManager&#10;ApplicationC&#9;PSI&#9;JAVA://org.springframework.context.ApplicationContext&#10;Event&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java&#10;Array&#9;FILE&#9;uml://JAVA/java.util.ArrayList&#10;BeanFactory&#9;PSI&#9;JAVA://org.springframework.beans.factory.BeanFactory&#10;EventE&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java&#10;ThreadLocal&#9;PSI&#9;JAVA://com.claylin.javaResource.threadLocal.ThreadLocalExample.MyRunnable#threadLocal&#10;Reen&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java&#10;Thread&#9;ACTION&#9;Debugger.CustomizeThreadsView&#10;JavaThread&#9;PSI&#9;JAVA://sun.jvm.hotspot.runtime.JavaThread&#10;EventExecutorG&#9;FILE&#9;jar:///Users/claylin/.m2/repository/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java&#10;Unpo&#9;PSI&#9;JAVA://io.netty.buffer.Unpooled" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547044237840" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../work" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.claylin.algorithm.search.ternaryTree" />
       <recent name="com.claylin.springboot" />
       <recent name="com.claylin.javaResource.threadLocal" />
-    </key>
-    <key name="OPEN_URL_DIALOG">
-      <recent name="https://github.com/callicoder/spring-webflux-reactive-rest-api-demo" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.claylin.algorithm.search.ternaryTree" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/collections" />
       <recent name="$PROJECT_DIR$/rpc/rpc-registry-zookeeper/src/main/resources" />
       <recent name="$PROJECT_DIR$/rpc/rpc-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/netty/src/main/java/com/claylin/netty" />
       <recent name="$PROJECT_DIR$/netty/src/main/resources" />
-      <recent name="$PROJECT_DIR$/thrift/src/main/java/com/claylin" />
+    </key>
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/callicoder/spring-webflux-reactive-rest-api-demo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grpc-example/src/main/proto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -779,119 +290,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountNum">
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <Java />
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528481913847" />
-      </method>
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <Java />
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-      </Profilers>
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528481913848" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+  <component name="RunManager" selected="Application.Example8_1">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.claylin.algorithm.exercise.CountNum" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="Example8_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.claylin.jvm.learning.chapter8.Example8_1" />
+      <module name="jvm-learning" />
+      <option name="VM_PARAMETERS" value="-verbose:gc -XX:+PrintGCDetails -XX:+PrintGCTimeStamps " />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.claylin.algorithm.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HttpHelloServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.claylin.netty.http.helloworld.HttpHelloServer" />
-      <module name="netty" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.claylin.netty.http.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.claylin.collection.ListTest" />
-      <module name="collection" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.claylin.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="cache" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransfromNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.claylin.algorithm.exercise.TransfromNum" />
-      <module name="algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.claylin.algorithm.exercise.*" />
+          <option name="PATTERN" value="com.claylin.jvm.learning.chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -906,6 +318,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -932,7 +345,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -941,29 +355,16 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Example8_1" />
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Spring Boot.KafkaApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Application.ListTest" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.HttpHelloServer" />
-      <item itemvalue="Application.TransfromNum" />
-      <item itemvalue="Application.CountNum" />
+      <item itemvalue="Spring Boot.KafkaApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountNum" />
-        <item itemvalue="Application.TransfromNum" />
-        <item itemvalue="Application.HttpHelloServer" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.Example8_1" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SbtLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -1030,90 +431,142 @@
       <workItem from="1526132967119" duration="27274000" />
       <workItem from="1526723739597" duration="37804000" />
       <workItem from="1528213283589" duration="1913000" />
+      <workItem from="1529334306427" duration="1222000" />
+      <workItem from="1529509745368" duration="3458000" />
+      <workItem from="1529942134192" duration="4718000" />
+      <workItem from="1530543490803" duration="1451000" />
+      <workItem from="1530713909414" duration="219000" />
+      <workItem from="1531237230878" duration="2023000" />
+      <workItem from="1531333333445" duration="6000" />
+      <workItem from="1533142520929" duration="969000" />
+      <workItem from="1533228773731" duration="9759000" />
+      <workItem from="1533396044077" duration="940000" />
+      <workItem from="1533461801010" duration="8507000" />
+      <workItem from="1534043516427" duration="4815000" />
+      <workItem from="1534257621738" duration="2346000" />
+      <workItem from="1539700548308" duration="1376000" />
+      <workItem from="1541296440699" duration="1947000" />
+      <workItem from="1541302035975" duration="992000" />
+      <workItem from="1541786787408" duration="4108000" />
+      <workItem from="1541933529267" duration="4329000" />
+      <workItem from="1543243133798" duration="10701000" />
+      <workItem from="1544947104659" duration="548000" />
+      <workItem from="1544947779899" duration="25542000" />
+      <workItem from="1549092387341" duration="707000" />
+      <workItem from="1549782936980" duration="45000" />
+      <workItem from="1549783617481" duration="670000" />
+      <workItem from="1550310437520" duration="592000" />
+      <workItem from="1551712064246" duration="636000" />
+      <workItem from="1553699959482" duration="125000" />
+      <workItem from="1559007004915" duration="3191000" />
+      <workItem from="1561555314995" duration="15229000" />
+      <workItem from="1562022951797" duration="597000" />
+      <workItem from="1562161373987" duration="1130000" />
+      <workItem from="1562423998780" duration="214000" />
+      <workItem from="1562677215925" duration="553000" />
+      <workItem from="1562857356255" duration="3392000" />
+      <workItem from="1566402123629" duration="6663000" />
+      <workItem from="1567608222455" duration="3000" />
+      <workItem from="1567609080205" duration="2000" />
+      <workItem from="1567609159432" duration="23144000" />
+      <workItem from="1569029439381" duration="8864000" />
+      <workItem from="1569041581129" duration="18159000" />
+      <workItem from="1569254591801" duration="4225000" />
+      <workItem from="1569427298611" duration="656000" />
+      <workItem from="1570437803944" duration="1440000" />
+      <workItem from="1570802098393" duration="5549000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1528481909153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528481909153</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ternary search tree">
+      <created>1533322271535</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533322271536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="添加index hashset 添加三叉搜索树">
+      <created>1533396874387</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533396874387</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update indexed treeset and treemap">
+      <created>1533461952280</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533461952280</updated>
+    </task>
+    <task id="LOCAL-00005" summary="segment tree">
+      <created>1533745879191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533745879192</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add ref">
+      <created>1533745988837</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533745988837</updated>
+    </task>
+    <task id="LOCAL-00007" summary="git ignore">
+      <created>1570867626995</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570867626995</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 27m 03s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 30m 22s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 30m 40s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 31m 55s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 32m 33s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 32m 49s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 34m 31s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 34m 51s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 38m 18s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationTest_test - 2018.03.19 at 23h 38m 32s.xml">
-      <configuration name="ApplicationTest.test" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401108000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1280" y="-199" width="1920" height="1080" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49933067" visible="true" weight="0.2513312" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" sideWeight="0.50066936" side_tool="true" weight="0.09983543" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293124" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977463" weight="0.24356435" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49775785" weight="0.29589042" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30089375" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5022537" side_tool="true" weight="0.2596054" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="JRebel Executor" order="11" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.50224215" side_tool="true" weight="0.28141224" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32274082" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="15" weight="0.32917964" />
-      <window_info anchor="bottom" id="Java Enterprise" order="16" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.28966987" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32960597" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.1544196" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="ternary search tree" />
+    <MESSAGE value="update indexed treeset and treemap" />
+    <MESSAGE value="segment tree" />
+    <MESSAGE value="添加index hashset 添加三叉搜索树" />
+    <MESSAGE value="add ref" />
+    <MESSAGE value="git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1121,348 +574,290 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring/src/main/java/com/claylin/spring/AppAnnotationContext.java</url>
           <line>10</line>
-          <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring/src/main/java/com/claylin/spring/AppAnnotationContext.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring/src/main/java/com/claylin/spring/AppAnnotationContext.java</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/nio/DirectByteBuffer.java</url>
           <line>767</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/disruptor/src/main/java/com/claylin/disruptor/LongEventMain.java</url>
           <line>58</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/NettyClientHandler.java</url>
           <line>17</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/file/HttpStaticFileServerHandler.java</url>
           <line>111</line>
-          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/file/HttpStaticFileServerHandler.java</url>
           <line>119</line>
-          <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/file/HttpStaticFileServerHandler.java</url>
           <line>135</line>
-          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/file/HttpStaticFileServerHandler.java</url>
           <line>137</line>
-          <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/proxy/cglibProxy/UserServiceCallbackFilter.java</url>
           <line>13</line>
-          <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/InterruptedThread.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/InterruptedThread.java</url>
           <line>16</line>
-          <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/InterruptedThread.java</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/InterruptedThread.java</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/InterruptedThread.java</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/ThreadSafeStop.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/ThreadSafeStop.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javaResource/src/main/java/com/claylin/javaResource/thread/ThreadSafeStop.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/configuration/WebConfiguration.java</url>
           <line>40</line>
-          <properties />
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/service/CustomerService.java</url>
           <line>31</line>
-          <properties />
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/service/CustomerService.java</url>
           <line>39</line>
-          <properties />
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-boot/src/main/java/com/claylin/springboot/service/CustomerService.java</url>
           <line>33</line>
-          <properties />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/script/DefaultScriptExecutor.java</url>
           <line>51</line>
-          <properties />
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.0.5.RELEASE/spring-data-redis-2.0.5.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java</url>
           <line>202</line>
-          <properties />
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/collection/src/main/java/com/claylin/collection/ListTest.java</url>
           <line>9</line>
-          <properties />
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
           <line>580</line>
-          <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/helloworld/HttpHelloWorldServerHandler.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/helloworld/HttpHelloWorldServerHandler.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
           <line>602</line>
-          <properties />
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
           <line>643</line>
-          <properties />
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java</url>
           <line>245</line>
-          <properties />
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java</url>
           <line>247</line>
-          <properties />
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
           <line>64</line>
-          <properties />
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
           <line>91</line>
-          <properties />
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java</url>
           <line>112</line>
-          <properties />
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java</url>
           <line>114</line>
-          <properties />
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java</url>
           <line>137</line>
-          <properties />
           <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java</url>
           <line>598</line>
-          <properties />
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
           <line>74</line>
-          <properties />
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
           <line>89</line>
-          <properties />
           <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java</url>
           <line>92</line>
-          <properties />
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
           <line>934</line>
-          <properties />
           <option name="timeStamp" value="166" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>344</line>
-          <properties />
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>345</line>
-          <properties />
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>347</line>
-          <properties />
           <option name="timeStamp" value="169" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>359</line>
-          <properties />
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>361</line>
-          <properties />
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>362</line>
-          <properties />
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>366</line>
-          <properties />
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
           <line>1265</line>
-          <properties />
           <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java</url>
           <line>237</line>
-          <properties />
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java</url>
           <line>238</line>
-          <properties />
           <option name="timeStamp" value="177" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java</url>
           <line>240</line>
-          <properties />
           <option name="timeStamp" value="178" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java</url>
           <line>232</line>
-          <properties />
           <option name="timeStamp" value="179" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>339</line>
-          <properties />
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>934</line>
-          <properties />
           <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
           <line>936</line>
-          <properties />
           <option name="timeStamp" value="182" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
@@ -1477,508 +872,5 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>map.get(array[1])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>map.get(array[0]) == null ? 1 : map.get(array[0]) * 10 + map.get(array[1])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;4千5百6十7&quot;.split(&quot;万&quot;);</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>next</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>pipeline</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>SelectionKey.OP_ACCEPT &amp; readyOps</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>SelectionKey.OP_READ &amp; readyOps</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.util.concurrent.locks.AbstractQueuedLongSynchronizer">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.locks.AbstractQueuedLongSynchronizer</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
-            <node x="" y="">java.util.concurrent.locks.AbstractQueuedLongSynchronizer</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="156.0" y="94.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/NettyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/NettyServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/TimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/codec/http/HttpServerCodec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/instrument/InstrumentationImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="252" selection-start-line="252" selection-end-line="252" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/security/AccessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="651" column="8" selection-start-line="651" selection-start-column="8" selection-end-line="651" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="3219" column="34" selection-start-line="3219" selection-start-column="34" selection-end-line="3219" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="461" lean-forward="true" selection-start-line="461" selection-end-line="461" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.22.Final/netty-transport-4.1.22.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="744" selection-start-line="744" selection-end-line="744" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/DefaultThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="214" column="36" selection-start-line="214" selection-start-column="36" selection-end-line="214" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/internal/SocketUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="115" column="63" selection-start-line="115" selection-start-column="63" selection-end-line="115" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1046">
-          <caret line="275" selection-start-line="275" selection-end-line="275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/helloworld/HttpHelloWorldServerInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="857" selection-start-line="857" selection-end-line="857" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/codec/ByteToMessageDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-transport/4.1.15.Final/netty-transport-4.1.15.Final.jar!/io/netty/bootstrap/ServerBootstrap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="227" column="30" lean-forward="true" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/helloworld/HttpHelloWorldServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="212" column="13" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="615" column="20" selection-start-line="615" selection-start-column="20" selection-end-line="615" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/EventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="29" column="58" selection-start-line="29" selection-start-column="58" selection-end-line="29" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/util/concurrent/EventExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty/src/main/java/com/claylin/netty/http/helloworld/HttpHelloServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12720">
-          <caret line="934" selection-start-line="934" selection-end-line="934" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-          <folding>
-            <element signature="e#6331#7069#0" expanded="true" />
-            <element signature="e#7068#7069#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/exercise/TransfromNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/handler/logging/LoggingHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/CombinedChannelDuplexHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5970">
-          <caret line="436" column="37" selection-start-line="436" selection-start-column="37" selection-end-line="436" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17505">
-          <caret line="1265" selection-start-line="1265" selection-end-line="1265" />
-          <folding>
-            <element signature="e#42984#42985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8205">
-          <caret line="598" selection-start-line="598" selection-end-line="598" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.16.Final/netty-all-4.1.16.Final-sources.jar!/io/netty/channel/nio/AbstractNioMessageChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/src/main/java/com/claylin/algorithm/exercise/CountNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/common/errors/UnsupportedVersionException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="https://github.com/callicoder/spring-webflux-reactive-rest-api-demo">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/1.0.0/kafka-clients-1.0.0-sources.jar!/org/apache/kafka/clients/consumer/KafkaConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="1580" column="27" selection-start-line="1580" selection-start-column="27" selection-end-line="1580" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/disruptor/disruptor.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_project.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>netty</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
