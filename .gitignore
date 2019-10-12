@@ -1,42 +1,30 @@
-# Default ignored files
-/.idea/shelf/
-/.idea/workspace.xml
+# maven ignore
+target/
+*.jar
+!.mvn/wrapper/*
+*.war
+*.zip
+*.tar
+*.tar.gz
 
-# Project exclude paths
-/algorithm/target/
-/cache/target/
-/collection/target/
-/common/target/
-/concurrencyInPractice/chapter14BuildingCustomSynchronizer/target/
-/concurrencyInPractice/chapter2ThreadSafety/target/
-/concurrencyInPractice/chapter5BuildingBlocks/target/
-/core/target/
-/demo/target/
-/disruptor/target/
-/javaBase/target/
-/javaResource/target/
-/kafka/target/
-/logger/target/
-/netty/target/
-/rpc/rpc-common/target/
-/rpc/rpc-registry/target/
-/rpc/rpc-registry-zookeeper/target/
-/rpc/rpc-server/target/
-/spring/target/
-/spring-boot/target/
-/thrift/target/
+# eclipse ignore
+.settings/
+.project
+.classpath
 
-# Datasource local storage ignored files
-/.idea/dataSources/
-dataSources.local.xml
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
 
-# Editor-based HTTP Client requests
-/.idea/httpRequests/
-rest-client.private.env.json
-http-client.private.env.json
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
 
-.idea
-/unsafe/target/
-/grpc-example/target/
-logger.log
-.iml
+# system ignore
+.DS_Store
+Thumbs.db
