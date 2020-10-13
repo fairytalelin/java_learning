@@ -47,7 +47,7 @@
         <swift>0.23.1</swift>
         <slf4j-api>1.7.25</slf4j-api>
         <logback>1.2.2</logback>
-        <junit>4.12</junit>
+        <junit>4.13.1</junit>
     </properties>
 
     <dependencyManagement>
