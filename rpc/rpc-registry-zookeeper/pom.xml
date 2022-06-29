@@ -14,7 +14,7 @@
 
     <properties>
         <rpc-registry>1.0-SNAPSHOT</rpc-registry>
-        <version.zookeeper>3.4.6</version.zookeeper>
+        <version.zookeeper>3.4.14</version.zookeeper>
         <version.zkclient>0.4</version.zkclient>
     </properties>
 
